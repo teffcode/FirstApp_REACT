@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = {
     entry: './source/server.js',  // punto de entrada de webpack
     output: {                     // donde webpack va a dejar los archivos
-        path: path.resolve(__dirname, './built/server'),   // creamos una carpeta built y por dentro server
+        path: path.resolve(__dirname, '../built/server'),   // creamos una carpeta built y por dentro server
         filename: 'index.js'
     },
     module: {
