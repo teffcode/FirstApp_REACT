@@ -122,13 +122,27 @@ _____________________________________________________________________________
 
     - En consola: $ npm i -S isomorphic-fetch
 
-    - 
-
  🍊  SEGUNDO: Iniciar la app en el navegador y configurar Webpack para producción
+
+    ¿¿ Cómo crear el entry-point del navegador y compilarlo con webpack ??
+
+    -  En la carpeta 'sources' crear el archivo 'client.js'
+    -  En la carpeta 'sources/pages' crear el archivo 'Layout.jsx'
+    -  Se importa en server.js Layout.jsx y se modifica response.write
+    -  Correr el server como lo hicimos anteriormente
+    -  Luego ver en el navegador: view-source:http://localhost:3000/
+    -  Crear el webpack.client.config.js en la carpeta webpack
+    -  En consola instalar: npm i -D babel-plugin-transform-es2015-modules-commonjs 
+                            babel-preset-es2016 babel-preset-es2017
+    -  Configurar el webpack.config.js
+
  🍊  TERCERO: Iniciar un servidor de estáticos con zeit/list
  🍊  CUARTO: Herramientas de desarrollo de React
  🍊  QUINTO: Consumir API y mostrar datos en el home
 
+
+_____________________________________________________________________________
+_____________________________________________________________________________
 
 
 	👩🏻 PERFIL DE USUARIOS 👱🏻

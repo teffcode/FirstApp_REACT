@@ -1,10 +1,12 @@
 const server = require('./webpack.server.config.js');
+const client = require('./webpack.client.config.js');
 
 // para que soporte un array con server
 // puede ser un archivo o un array de configuración
 
 module.exports = [
     server,
+    client,
 ];
 
 // ir a la consola y correr la siguiente instalación
