@@ -112,6 +112,18 @@ _____________________________________________________________________________
 	📲  CONSUMO DE API 📲  
 
  🍊  PRIMERO: Creación del cliente para consumir el API
+
+    - Debemos saber cuál es el API que vamos a consumir
+      En este caso será: http://jsonplaceholder.typicode.com/
+      que es un API de pruebas, demos y demostraciones :D
+    
+    - En la carpeta 'sources' crear el archivo 'api.js'
+      Aquí tendremos el CLIENTE
+
+    - En consola: $ npm i -S isomorphic-fetch
+
+    - 
+
  🍊  SEGUNDO: Iniciar la app en el navegador y configurar Webpack para producción
  🍊  TERCERO: Iniciar un servidor de estáticos con zeit/list
  🍊  CUARTO: Herramientas de desarrollo de React
