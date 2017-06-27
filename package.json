@@ -19,7 +19,8 @@
   "homepage": "https://github.com/teffcode/FirstApp_REACT#readme",
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-router": "^4.0.0-alpha.5"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",

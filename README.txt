@@ -1,3 +1,4 @@
+
 	📁  ESTRUCTURA DE ARCHIVOS 📁 
 
     - Existen diversas formas:
@@ -16,6 +17,9 @@
     - Una carpeta para toda la app e internamente más carpetas por
       cada app y cada una a su vez con carpetas con features
 
+
+_____________________________________________________________________________
+_____________________________________________________________________________
 
 
 	💻  RENDER BÁSICO EN SERVER ▶️ 
@@ -73,14 +77,36 @@
 		    - Escribir en consola: npm i -D babel-core babel-loader 
 		      babel-preset-latest-minimal babel-preset-react json-loader
 		    - Correr el webpack, escribir en consola: webpack
+          (en mi caso fue escribir: ./node_modules/.bin/webpack --config webpack/webpack.config.js
 		    - Iniciar servidor, escribir en consola: node built/server/index.js
  		    
     - IR AL NAVEGADOR:
 
 		    - Escribir: localhost:3000
 
- 🍌  CUARTO: Manejo de rutas en el servidor con React Router
+         LISTOOOO !!!! 🎉 🎉 🎉  Ya estás corriendo tu app en el server !!!!
 
+ 
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+
+  🚗  MANEJO DE RUTAS EN EL SERVIDOR CON REACT ROUTER 🚗
+
+    - Instalar la librería react-router en consola, así:
+      $ npm i -S react-router@next
+      NOTA: Para este proyecto npm install react-router@4.0.0-alpha.5
+            Revisar la versión en el package.json
+    - En la carpeta 'sources' crear carpeta 'pages' que a su vez tiene la carpeta 'containers'
+    - En la carpeta 'containers' crear el archivo 'Page.jsx'
+    - En 'containers' crear los archivos 'Home.jsx', 'About.jsx', 'Error404.jsx'
+    - Correr el webpack, escribir en consola: webpack
+      (en mi caso fue escribir: ./node_modules/.bin/webpack --config webpack/webpack.config.js
+    - Iniciar servidor, escribir en consola: node built/server/index.js
+
+
+_____________________________________________________________________________
+_____________________________________________________________________________
 
 
 	📲  CONSUMO DE API 📲  
